@@ -1,9 +1,9 @@
-package com.pizzariaelgrably.pizzariaelgrably;
+package com.pizzariaelgrably.pizzariaelgrably.HomeScreen;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class Controller {
+public class ControllerHomeScreen {
     @FXML
     private Label welcomeText;
 

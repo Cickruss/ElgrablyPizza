@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@HomeScreen.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="179.0" layoutY="12.0" styleClass="neon" stylesheets="@HomeScreen.css" text="ISAAC's" textFill="#426dfb">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="46.0" styleClass="neon" stylesheets="@HomeScreen.css" text="PIZZARIA" textFill="#fb4264">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
