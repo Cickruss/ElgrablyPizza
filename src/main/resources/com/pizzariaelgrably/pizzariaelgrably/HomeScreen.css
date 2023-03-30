@@ -1,16 +1,43 @@
 
+
 @font-face {
     font-family: neon;
     src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
+@font-face {
+    font-family: Pixelboy;
+    src: url(Fontes/Pixeboy-z8XGD.ttf);
+}
 
 .background{
-    -fx-background-image: url('Images/pizzagif.gif');
+    -fx-background-image: url('Images/gifLuaRetro.gif');
     -fx-background-size: cover;
 
 }
 .neon {
     -fx-font-family: neon;
+}
+.buttonRequest{
+    -fx-background-color: transparent;
+    -fx-cursor: pointer;
+    -fx-font-family: Pixeboy;
+    -fx-font-size: 30px;
+}
+.labelsInfoRequest{
+    -fx-font-family: Pixeboy;
+    -fx-font-size: 20px;
+}
+.comboBoxRequest{
+    -fx-font-size: 13px;
+    -fx-font-family: Pixelboy ;
+    -fx-background-color: #c90e85;
+    -fx-color-label-visible: red;
+}
+.textFiedRequest{
+    -fx-background-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-radius: 2%;
+    -fx-border-color: #9125ba;
 }
 
 

@@ -9,23 +9,23 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
-public class ControllerHomeScreen {
+public class ControllerRequestScreeen {
+
     private Stage stage;
     private Scene scene;
     private Parent root;
+    @FXML
+    private Button ButtonRequestToHome;
 
     @FXML
-    private Button Button1;
-
-    @FXML
-    public void buttonSwitchRequestScreen(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(Application.class.getResource("RequestScreen.fxml"));
-        stage = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+    void ButtonInvateRequest(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(Application.class.getResource("HomeScreen.fxml"));
+        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
     }
-    }
+
+}
