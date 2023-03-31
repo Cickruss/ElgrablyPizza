@@ -39,6 +39,9 @@
     -fx-border-radius: 2%;
     -fx-border-color: #9125ba;
 }
+.listViewManagement{
+    -fx-background-color: #210b3c;
+}
 
 
 

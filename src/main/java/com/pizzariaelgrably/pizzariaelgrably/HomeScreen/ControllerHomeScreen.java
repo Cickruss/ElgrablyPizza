@@ -21,8 +21,16 @@ public class ControllerHomeScreen {
     private Button Button1;
 
     @FXML
-    public void buttonSwitchRequestScreen(ActionEvent actionEvent) throws IOException {
+    public void SwitchRequestScreen(ActionEvent actionEvent) throws IOException {
         Parent root = FXMLLoader.load(Application.class.getResource("RequestScreen.fxml"));
+        stage = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
+    public void SwitchManegementScreen(ActionEvent actionEvent) throws IOException {
+        Parent root = FXMLLoader.load(Application.class.getResource("ManagementScreen.fxml"));
         stage = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

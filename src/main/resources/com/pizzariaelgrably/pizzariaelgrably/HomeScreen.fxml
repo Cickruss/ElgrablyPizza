@@ -18,7 +18,7 @@
             <BoxBlur />
          </effect>
       </Rectangle>
-      <ImageView fitHeight="280.0" fitWidth="362.0" layoutX="215.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="280.0" fitWidth="362.0" layoutX="219.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Images/LogoIsaacs2.png" />
          </image>
@@ -61,7 +61,7 @@
       </Rectangle>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="85.0" layoutX="462.0" layoutY="367.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="185.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e117a" height="87.0" layoutX="456.0" layoutY="362.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="188.0" />
-      <Button layoutX="454.0" layoutY="363.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="188.0" styleClass="buttonRequest" stylesheets="@HomeScreen.css" text="Lista de pedidos" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
-      <Button layoutX="152.0" layoutY="363.0" mnemonicParsing="false" onAction="#buttonSwitchRequestScreen" prefHeight="87.0" prefWidth="185.0" styleClass="buttonRequest" stylesheets="@HomeScreen.css" text="Fazer pedido" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button layoutX="454.0" layoutY="363.0" mnemonicParsing="false" onAction="#SwitchManegementScreen" prefHeight="91.0" prefWidth="188.0" styleClass="buttonRequest" stylesheets="@HomeScreen.css" text="Lista de pedidos" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Button layoutX="152.0" layoutY="363.0" mnemonicParsing="false" onAction="#SwitchRequestScreen" prefHeight="87.0" prefWidth="185.0" styleClass="buttonRequest" stylesheets="@HomeScreen.css" text="Fazer pedido" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
    </children>
 </AnchorPane>
