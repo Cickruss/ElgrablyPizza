@@ -23,6 +23,12 @@
     -fx-font-family: Pixeboy;
     -fx-font-size: 30px;
 }
+.buttonUrgency{
+    -fx-background-color: transparent;
+    -fx-cursor: pointer;
+    -fx-font-family: Pixeboy;
+    -fx-font-size: 20px;
+}
 .labelsInfoRequest{
     -fx-font-family: Pixeboy;
     -fx-font-size: 20px;

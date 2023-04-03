@@ -4,26 +4,15 @@ public class Requests {
     private String clientName; // nome do cliente
     private String flavor; //sabor
     private String address; // endereço
-    private char size; // tamanho
+    private String size; // tamanho
     private int amount; // endereço
 
-    public Requests(String clientName, String flavor, String address, char size, int amount) {
+    public Requests(String clientName, String address, String flavor,String size, int amount) {
         this.clientName = clientName;
         this.flavor = flavor;
         this.address = address;
         this.size = size;
         this.amount = amount;
-    }
-
-    @Override
-    public String toString() {
-        return "Requests{" +
-                "clientName='" + clientName + '\'' +
-                ", flavor='" + flavor + '\'' +
-                ", address='" + address + '\'' +
-                ", size=" + size +
-                ", amount=" + amount +
-                '}';
     }
 
     public String getClientName() {
@@ -50,11 +39,11 @@ public class Requests {
         this.address = address;
     }
 
-    public char getSize() {
+    public String getSize() {
         return size;
     }
 
-    public void setSize(char size) {
+    public void setSize(String size) {
         this.size = size;
     }
 
@@ -64,5 +53,16 @@ public class Requests {
 
     public void setAmount(int amount) {
         this.amount = amount;
+    }
+
+    @Override
+    public String toString() {
+        return "Requests{" +
+                "clientName='" + clientName + '\'' +
+                ", flavor='" + flavor + '\'' +
+                ", address='" + address + '\'' +
+                ", size='" + size + '\'' +
+                ", amount=" + amount +
+                '}';
     }
 }

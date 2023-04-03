@@ -11,7 +11,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.shape.Rectangle?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="background" stylesheets="@HomeScreen.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pizzariaelgrably.pizzariaelgrably.HomeScreen.ControllerHomeScreen">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="background" stylesheets="@HomeScreen.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pizzariaelgrably.pizzariaelgrably.Controllers.ControllerHomeScreen">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000060" height="600.0" stroke="BLACK" strokeType="INSIDE" width="800.0">
          <effect>
@@ -23,7 +23,7 @@
             <Image url="@Images/LogoIsaacs2.png" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="85.0" layoutX="159.0" layoutY="371.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="185.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="85.0" layoutX="313.0" layoutY="397.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="185.0">
          <effect>
             <Shadow>
                <color>
@@ -48,20 +48,8 @@
             </LinearGradient>
          </fill>
       </Rectangle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="85.0" layoutX="155.0" layoutY="366.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="185.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e117a" height="87.0" layoutX="149.0" layoutY="361.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="188.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5c6111" height="86.0" layoutX="466.0" layoutY="371.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="186.0">
-         <effect>
-            <Shadow>
-               <color>
-                  <Color red="0.5686274766921997" green="0.14509804546833038" blue="0.729411780834198" />
-               </color>
-            </Shadow>
-         </effect>
-      </Rectangle>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="85.0" layoutX="462.0" layoutY="367.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="185.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e117a" height="87.0" layoutX="456.0" layoutY="362.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="188.0" />
-      <Button layoutX="454.0" layoutY="363.0" mnemonicParsing="false" onAction="#SwitchManegementScreen" prefHeight="91.0" prefWidth="188.0" styleClass="buttonRequest" stylesheets="@HomeScreen.css" text="Lista de pedidos" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
-      <Button layoutX="152.0" layoutY="363.0" mnemonicParsing="false" onAction="#SwitchRequestScreen" prefHeight="87.0" prefWidth="185.0" styleClass="buttonRequest" stylesheets="@HomeScreen.css" text="Fazer pedido" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="85.0" layoutX="309.0" layoutY="392.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="185.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e117a" height="87.0" layoutX="303.0" layoutY="387.0" stroke="TRANSPARENT" strokeType="INSIDE" strokeWidth="0.0" width="188.0" />
+      <Button layoutX="306.0" layoutY="389.0" mnemonicParsing="false" onAction="#SwitchRequestScreen" prefHeight="87.0" prefWidth="185.0" styleClass="buttonRequest" stylesheets="@HomeScreen.css" text="Go!" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
    </children>
 </AnchorPane>
